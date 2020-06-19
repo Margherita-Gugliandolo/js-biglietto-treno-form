@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ table{
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+th{
+  border:1px solid #000;
+}
+
+thead th{
+  font-size: 20px;
+  background-color: black;
+  color:white;
+}
+
+tbody th{
+  color:grey;
+}
+
+label{
+line-height: 2;
+margin-left: 10px;
+}
+
+#creaBiglietto{
+  margin-left: 10px;
+}
+input{
+  margin-left: 10px;
+}
+
+
+.hidden{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.show{
+  opacity: 1;
+  transition: 0.5s;
+}

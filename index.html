@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Prezzo Ticket
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <div>
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" name="nome" value="">
+  </div>
+  <div>
+    <label for="cognome">Cognome</label>
+    <input id="cognome" type="text" name="cognome" value="">
+  </div>
+  <div>
+    <label for="km">Km che si vogliono percorrere</label>
+    <input id="km" type="number" name="km" value="">
+  </div>
+  <div>
+    <label for="categoria">Categoria</label>
+    <select id="categoria" name="categoria">
+      <option value="over65">Over 65</option>
+      <option value="maggiorenne">Maggiorenne</option>
+      <option value="minorenne">Minorenne</option>
+    </select>
+  </div>
+  <button id="creaBiglietto" type="button" name="creaBiglietto">Stampa Biglietto</button>
+  <button id="annullaBiglietto" type="button" name="annullaBiglietto">Annulla</button>
+</div>
+<div id="biglietto" class="hidden">
+  <table>
+    <thead>
+      <th>Nome Passeggero</th>
+      <th>Numero Treno</th>
+      <th>Numero Carrozza</th>
+      <th>Importo Pagato</th>
+      <th>Categoria Passeggero</th>
+    </thead>
+    <tbody>
+      <th id="passeggero"></th>
+      <th id="treno"></th>
+      <th id="carrozza"></th>
+      <th id="prezzoBiglietto"></th>
+      <th id="categoriaPasseggero"></th>
+    </tbody>
+  </table>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+<html>
